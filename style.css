@@ -1,0 +1,142 @@
+*{
+    margin: 0px;    
+    font-family: "roboto", sans-serif;
+}
+.navPanel{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    color:white;
+    align-items: center;
+    height: fit-content;
+    
+}
+
+#headerLogo{
+    font-weight: bold;     
+    font-size: 24px; 
+    margin-top: 10px;
+}
+.menu{
+    display: flex;    
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 10px;
+}
+.pageLinks{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 25px;
+}
+.pageLinks:hover{
+    color: rgb(235, 145, 0);
+}
+.lowContrast{
+    color: #e5e7eb; 
+}
+.pageHero{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    height: 200px;
+    padding: 50px;
+    justify-content: space-around;
+    flex-grow: 0;
+    flex-wrap: nowrap;
+}
+#heroImage{
+    max-height: 100%;
+    filter: invert(100);
+}
+.heroText{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 100 300 100 0;
+    gap: 10px;
+}
+#signUp{
+    width: fit-content;
+    padding:2px 15px 2px 15px ;
+    height: 150%;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: .1px;
+    max-height: 25px;
+}
+#signUp:hover{
+    scale: 110%;
+    background-color: rgb(235, 145, 0);
+    border-color: #e5e7eb;
+}
+.mainBody{
+    text-align: center;
+ 
+}
+.imagesAndTitle{
+    display: flex;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-basis: 10px;
+    min-width: 0;
+    gap: 25px;
+    color: #1f2937 ;
+    font-style: italic;
+    font-size: 18px;
+}
+.imagesAndTitle img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    filter: contrast(.5);
+    border-radius: 7px;
+    border: #3882F6 solid 3px;
+}
+.imagesAndTitle img:hover{
+    filter: none;
+    scale: 110%;
+}
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 13% 20% 13% 20%; 
+}
+.quote:hover{
+    background-image: url("links/lightning-2568381_1280.jpg");
+    background-size: 150%;
+    filter: grayscale(1);
+    color: white;
+    font-weight: bold;
+}
+#credit{
+    text-align: right;
+}
+.action{
+    background-color: #3882F6;
+    margin: 10% 20% 10% 20%;
+    border-radius: 7px;
+
+}
+.blueArea{
+    display: flex;
+    padding: 5% 10% 5% 10%;
+    color: white;
+    gap: 50px;    
+    align-items: center;
+}
+.blueArea #signUp{
+    flex-shrink: 0;
+}
+.footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
